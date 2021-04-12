@@ -1,0 +1,5 @@
+mongod --directoryperdb --dbpath C:Program Files\MongoDB\Server\4.2\data\db --logpath c:\Program Files\MongoDB\Server\4.2\log\mongo.log --logappend --rest --install
+
+npm i express express-validator bcryptjs config gravatar jsonwebtoken mongos request
+
+npm i -D nodemon concurrently
