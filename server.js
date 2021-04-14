@@ -1,6 +1,11 @@
 const express = require('express');
+const connectDB = require('./config/db');
+
 
 const app = express();
+
+//connect DB
+connectDB();
 
 app.get('/', (req,res) => res.send('I am Living Bitch'));
 
